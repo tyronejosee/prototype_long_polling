@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prototype long polling - backend"
+version = "0.1.0"
+description = ""
+authors = ["tyronejose <alt.tyronejose@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+djangorestframework = "^3.15.2"
+markdown = "^3.7"
+django-filter = "^24.3"
+django-cors-headers = "^4.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
