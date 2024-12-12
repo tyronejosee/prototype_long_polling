@@ -18,31 +18,31 @@ git clone git@github.com:tyronejosee/prototype_long_polling.git
 
 ### ⚙️ Installation
 
-Instalar las dependencias del proyecto.
+Install the project dependencies.
 
 ```bash
-poetry installgi
+poetry install
 ```
 
-Ejecutar el entorno virtual.
+Run the virtual environment.
 
 ```bash
 poetry shell
 ```
 
-Agregar una dependencia nueva.
+Add a new dependency.
 
 ```bash
 poetry add <package-name>
 ```
 
-Agregar dependencias de desarrollo (como linters o herramientas de prueba):
+Add development dependencies (such as linters or testing tools):
 
 ```bash
 poetry add --group dev <package-name>
 ```
 
-Ejecutar el proyecto.
+Run the project.
 
 ```bash
 python manage.py runserver
